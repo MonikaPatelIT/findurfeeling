@@ -1,0 +1,64 @@
+html,body {
+position: relative;
+background:black;
+color: #414141;
+color: white;
+}
+
+#loadImage {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  border-radius: 5px;
+  background: black;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+#loadImage h4 {
+  font-family: "Impact";
+}
+
+#loadImage p {
+  border-bottom: solid 1px white;
+  padding-bottom: 1px;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 7%;
+}
+
+input {
+  width: 20em;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.emotions {
+  color: black;
+  border-radius: 10px;
+  height: 8em;
+  width: 8em;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emotions h1 {
+  font-size: 1em;
+  border-top: 1px solid black;
+}
